@@ -97,7 +97,7 @@ export default function BookingsClient({
 
   const scrollToForm = () => {
     setTimeout(() => {
-      formRef.current?.scrollIntoView({ behavior: "smooth", block: "start" });
+      formRef.current?.scrollIntoView({ behavior: "clean", block: "start" });
     }, 100);
   };
 
